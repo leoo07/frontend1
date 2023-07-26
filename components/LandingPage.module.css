@@ -1,0 +1,56 @@
+.bgimage{
+/* styles.css */
+  background-image: url("https://img.freepik.com/free-vector/network-mesh-wire-digital-technology-background_1017-27428.jpg?w=360");
+  background-size: cover; /* Adjust to your preference (cover, contain, etc.) */
+  background-repeat: no-repeat; /* Prevent repeating the image */
+  min-height: 100vh; /* Set minimum height to ensure the image covers the entire viewport */
+}
+
+
+.landingMainHeading{
+    text-align: center;
+}
+.buttonGroup {
+   
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+.imagewr {
+    flex-basis: 30%;
+    text-align: center;
+  }
+  
+  .imagewr button {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+  }
+  
+  .imagewr img {
+    width: 50%;
+    height: auto;
+  }
+
+  .label {
+    margin-top: 10px;
+  }
+  .image {
+    width: 50px; /* Adjust the width as desired */
+    height: auto; /* Maintain the aspect ratio */
+  }
+
+
+/*.ordersbutton{
+     display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}*/
